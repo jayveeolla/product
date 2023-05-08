@@ -16,7 +16,7 @@ class DashboardController extends Controller
     {
 
          $productData = Week::
-            get('product_title', 'quanity');
+            get();
 
         return Inertia::render('Dashboard', [
             'productData' => $productData,

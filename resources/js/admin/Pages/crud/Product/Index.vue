@@ -89,7 +89,6 @@
                  
                            
                 </el-table-column>
-
                 <el-table-column min-width="200px" 
                   >
                   <template v-slot:default="props">
