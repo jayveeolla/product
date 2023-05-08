@@ -1,0 +1,23 @@
+.Vue-Toastification__toast--default {
+    background-color: transparent !important;
+}
+
+.Vue-Toastification__toast {
+    box-shadow: none !important;
+}
+
+$featherIconSizes: (10: 10px, 12: 12px, 14: 14px, 16: 16px, 18: 18px, 20: 20px, 22: 22px, 24: 24px, 26: 26px, 30: 30px, 48: 48px, 72: 72px);
+@each $size,
+$i in $featherIconSizes {
+    .feather-#{$size} {
+        width: $i;
+        height: $i;
+    }
+}
+
+.table {
+    th,
+    td {
+        white-space: normal !important;
+    }
+}
